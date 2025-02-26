@@ -8,3 +8,19 @@ body {
     width: 150px;
     height: auto;
 }
+
+.banner-carousel {
+    background-color: #08b80e1a;
+}
+
+.halfwidth {
+    width: 50%;
+}
+
+
+@media screen and (max-width:991px) {
+    .halfwidth {
+        width: 100%;
+    }
+
+}
