@@ -29,6 +29,18 @@ body {
 
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg);
+    /* Converts to green */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    filter: invert(30%) sepia(100%) saturate(500%) hue-rotate(90deg);
+    /* Darker green on hover */
+}
+
 @media screen and (max-width:991px) {
     .halfwidth {
         width: 100%;
